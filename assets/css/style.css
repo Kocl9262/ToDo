@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+}
+.task-area {
+    width: 300px;
+    margin-left: 10px;
+}
+.task-name {
+    width: 300px;
+    margin-left: 47px;
+}
+.task-date {
+    margin-left: 33px;
+}
+label {
+    display:block;
+    float:left;
+}
+.green {
+    height: 15px;
+    width: 30px;
+    background-color: green;
+}
+.red {
+    height: 15px;
+    width: 30px;
+    background-color: red;
+}
+.task-edit-name {
+    width: 300px;
+    margin-left: 47px;
+}
+.task-edit-area {
+    width: 300px;
+    margin-left: 10px;
+}
+.task-edit-date {
+    margin-left: 33px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <h1>Create new task</h1>
+
+    <form method="post" action="/task-added">
+        <p><label>Task name: </label>
+        <input class="task-name" name="task" placeholder="Task name" required></p>
+        <p><label>Task description: </label>
+        <textarea class="task-area" rows="7" name="description" placeholder="Task description"></textarea></p>
+        <p><label>Complete till: </label>
+        <input class="task-date" name="complete_till" type="date"></p>
+        <button>OK</button>
+    </form>
+
+</body>
+</html>
